@@ -2,56 +2,62 @@
 
 **Effective Date:** September 7, 2026
 
-This Privacy Policy describes how the HedgeHog Workflow Engine Chrome Extension ("the Extension") collects, uses, and protects your information.
+This Privacy Policy describes how the HedgeHog Workflow Engine Chrome Extension ("the Extension") handles your information.
 
-## 1. Information We Collect
+## 1. What the Extension Does
 
-To provide automated trading workflows and multi-agent coordination, the Extension may collect or process the following types of data:
+The HedgeHog Workflow Engine is an orchestration tool that helps you build, organize, and run multi-step AI workflows. It generates prompts and workflow steps locally in your browser. **You choose where those prompts go** — you can cut, paste, or drag and drop them into any large language model (LLM) or AI service you use (for example, OpenAI, Anthropic, Google, or any other provider). The Extension itself does not route your prompts to any specific AI provider.
 
-- **User-Provided Information:** Prompts, trading parameters, API keys, and workflow instructions you input directly into the Extension.
-- **Execution Data:** Information related to the generated strategies, white papers, and trading cards created during your sessions.
-- **Web User Data:** Browsing-related data processed when you interact with web content through the Extension, such as page content you select or pages where the Extension is active.
-- **Automatically Collected Information:** Standard usage analytics, error logs, and performance metrics to ensure the stability of the workflow engine.
+## 2. Information We Handle
 
-## 2. How We Use Your Information
+The Extension processes the following types of data, locally on your device:
 
-We use the collected information exclusively for the following purposes:
+- **User-Provided Information:** Prompts, workflow instructions, parameters, and any API keys you choose to enter into the Extension.
+- **Workflow Data:** The prompts, steps, outputs, and related content created during your sessions.
+- **Web Page Content:** Content from web pages only when you actively select it or run the Extension on a page (for example, text you highlight or drag into a workflow).
+- **Usage Data:** Basic, local error logs and diagnostic information needed to keep the Extension stable.
 
-- To execute the core functionality of the Extension, including the Bluesky Strategy Gen Session and Multi-Agent Strategy Sessions.
-- To transmit your prompts and parameters to necessary third-party AI models (e.g., [Insert LLM Provider, e.g., OpenAI, Anthropic]) to generate strategies and execution elements.
-- To facilitate connections with your designated brokerage or execution APIs for trade instructions.
-- To debug, maintain, and improve the Extension's performance.
+## 3. How Your Information Is Used
 
-## 3. Data Sharing and Third-Party Services
+Your information is used solely to operate the Extension's workflow features:
 
-The Extension acts as an orchestration engine. We do not sell your personal data. We only share data with third parties necessary to fulfill your workflow requests:
+- To build, save, and run your workflows and prompts.
+- To let you transfer prompts and content to the AI services or tools you choose.
+- To debug and improve the Extension's performance.
 
-- **AI/LLM Providers:** Prompts and context required to generate strategies are sent to [List AI Providers].
-- **Financial APIs:** If configured, trade execution instructions are routed securely to your connected brokerage APIs.
+## 4. Data Sharing and Third Parties
 
-*Note: We strongly recommend reviewing the privacy policies of any connected third-party providers.*
+We do not sell your personal data, and we do not send your data to any server operated by us.
 
-## 4. Data Security and Storage
+- **AI/LLM Services:** Your prompts reach third-party AI services only when *you* paste, drop, or submit them yourself. Any such service is governed by its own privacy policy, which we encourage you to review.
+- **API Keys:** If you configure optional integrations with your own API keys, requests go directly from your browser to that provider over an encrypted connection. We never receive or store those keys on our servers.
 
-- **Local Storage:** User preferences, queued steps, and sensitive credentials (such as API keys) are stored locally on your device using Chrome's secure storage mechanisms.
-- **Data in Transit:** All data transmitted between the Extension and external APIs is encrypted via HTTPS/TLS.
-- **No Centralized Storage:** [Adjust if you use a backend] We do not store your trading strategies or API keys on our own centralized servers.
+## 5. Data Security and Storage
 
-## 5. Chrome Web Store Disclosures
+- **Local Storage:** Your preferences, saved workflows, and any credentials you enter are stored locally on your device using Chrome's built-in storage mechanisms.
+- **Data in Transit:** Any communication between the Extension and a third-party service you configure uses HTTPS/TLS encryption.
+- **No Centralized Storage:** We operate no backend servers and do not store your prompts, workflows, or API keys anywhere other than your own device.
+
+## 6. Chrome Web Store Commitments
 
 In compliance with the Chrome Web Store User Data Policy, the HedgeHog Workflow Engine:
 
-- Collects and uses data solely to provide the stated multi-agent trading functionality.
-- Does not use user data for creditworthiness checks or lending purposes.
+- Uses data only to provide its workflow-orchestration functionality.
+- Does not use or transfer user data for purposes unrelated to the Extension's single purpose.
+- Does not use user data for creditworthiness checks, lending, or advertising.
 - Does not sell user data to third parties.
 
-## 6. Your Rights
+## 7. Your Rights and Controls
 
-You may clear the Extension's local data at any time by uninstalling the Extension or clearing your browser's local storage. To revoke API access, you must regenerate or delete the keys directly within your connected third-party accounts.
+- You may delete all of the Extension's local data at any time by clearing the Extension's storage or uninstalling it.
+- You may revoke any API access by deleting or regenerating keys in your own third-party accounts.
 
-## 7. Contact Us
+## 8. Changes to This Policy
 
-If you have questions about this Privacy Policy or our data practices, please contact us at:
+If we update this Privacy Policy, the revised version will be posted at this page with an updated effective date.
 
-- **Email:** [Your Support Email Address]
-- **Website:** [Your Website]
+## 9. Contact Us
+
+If you have questions about this Privacy Policy or our data practices, contact us at:
+
+- **Email:** fnabwangu@gmail.com or hedgetechaibot@gmail.com
