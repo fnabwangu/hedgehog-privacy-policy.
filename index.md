@@ -10,6 +10,7 @@ To provide automated trading workflows and multi-agent coordination, the Extensi
 
 - **User-Provided Information:** Prompts, trading parameters, API keys, and workflow instructions you input directly into the Extension.
 - **Execution Data:** Information related to the generated strategies, white papers, and trading cards created during your sessions.
+- **Web User Data:** Browsing-related data processed when you interact with web content through the Extension, such as page content you select or pages where the Extension is active.
 - **Automatically Collected Information:** Standard usage analytics, error logs, and performance metrics to ensure the stability of the workflow engine.
 
 ## 2. How We Use Your Information
